@@ -1,0 +1,85 @@
+@font-face {
+    font-family: ArDarling;
+    src: url('ARDARLING.ttf');
+}
+
+body {
+    background-color: rgb(53, 53, 53);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(150, 150, 150);
+    background-image: url('Header6.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: none;
+    font-family: ArDarling;
+    /* border-top: 3px solid #f1f1f1;
+    border-left: 3px solid #f1f1f1;
+    border-right: 3px solid #f1f1f1; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.Nav {
+    font-family: ArDarling;
+    background-color: rgb(13, 13, 12);
+    font-size: 200%;
+    width: auto;
+    padding: 15px;
+    text-align: center;
+    /* border-bottom: 3px solid #f1f1f1;
+    border-left: 3px solid #f1f1f1;
+    border-right: 3px solid #f1f1f1; */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#Nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: auto;
+    border-radius: 30px;
+}

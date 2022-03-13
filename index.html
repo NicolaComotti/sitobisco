@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BISCO UOMO Vintage Barber Shop</title>
+    <meta name="author" content="Nicola Comotti">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="BISCO, UOMO, Vintage, Barber, Shop, barbiere, parrucchiere, capelli">
+    <meta name="viewport" content="width=1024">
+    <link rel="stylesheet" href="Stile.css" type="text/css">
+    <style>
+        img {
+            border: 5px solid #f1f1f1;
+            border-radius: 30px;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+            background-image: url('Sfondo.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            border-radius: 30px;
+        }
+        
+        .column {
+            margin: auto;
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+        
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+        
+        @media screen and (max-width: 800px) {
+            .column {
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .column {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- <p>BISCO UOMO Vintage Barber Shop</p> --><br><br>
+    </header>
+    <nav class="Nav">
+        <a id="Nav" href="index.html">Homepage</a>
+        <a id="Nav" href="News.html">News</a>
+        <a id="Nav" href="Orari.html">Orari</a>
+        <a id="Nav" href="Listino_Prezzi.html">Prezzi</a>
+        <a id="Nav" href="Contatti.html">Contatti</a>
+        <a id="Nav" href="Chi_Siamo.html">Chi Siamo</a>
+    </nav>
+    <div class="row">
+        <div class="column">
+            <img src="Albino3.jpg">
+            <img src="Albino1.jpg">
+            <img src="Albino4.jpg">
+            <img src="Albino9.jpg">
+            <img src="Albino10.jpg">
+            <img src="Albino6.jpg">
+            <img src="Albino8.jpg">
+        </div>
+        <div class="column">
+            <img src="Neutra6.jpg">
+            <img src="Neutra7.jpg">
+            <img src="Neutra9.jpg">
+            <img src="Neutra8.jpg">
+            <img src="Neutra4.jpg">
+            <img src="Selvino15.JPG">
+            <img src="Neutra5.jpg">
+        </div>
+        <div class="column">
+            <img src="Selvino16.JPG">
+            <img src="Selvino17.JPG">
+            <img src="Selvino6.jpg">
+            <img src="Selvino8.jpg">
+            <img src="Selvino2.jpg">
+            <img src="Selvino13.jpg">
+        </div>
+    </div>
+    <footer>
+        <p>Autore sito web: <b>Nicola Comotti </b>
+            <a href="https://www.instagram.com/nicolacomotti/" target="_blank"><img src="Instagram.png" style="padding-left: 10px; padding-right: 5px; width: 20px; height: 20px; border: none; border-radius: 0px;"></a>
+            <a href="mailto:nicola.comotti46@gmail.com" target="_blank"><img src="Mail.png" style="padding-left: 5px; padding-right: 10px; width: 20px; height: 20px; border: none; border-radius: 0px;">
+        </p>
+    </footer>
+</body>
+
+</html>
